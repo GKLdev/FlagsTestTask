@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 515a5acec58a9304f81cf51a64d208f0, type: 3}
+  m_Name: WavingFlagConfig_CPU_drag
+  m_EditorClassIdentifier: 
+  vertexSizeX: 32
+  vertexSizeY: 32
+  wSpaceSize: {x: 1.5, y: 4}
+  waveSpdHor: 0.3
+  waveSpdVert: 0.3
+  waveHeightFactor: 0.6
+  waveAmplitudeCPU: {x: 4.85, y: -4.4}
+  textureTranslationSpdHor: 0.3
+  textureTranslationSpdVert: 0
+  pinThresholdPercent: 15
+  pinThresholdSmoothless: 1
+  vertsLimit: 65535
+  propNameWaveHorSpd: _HMHorAnimSpd
+  propNameWaveVertSpd: _HMVertAnimSpd
+  propNameWaveHeight: _HeightFactor
+  propNameTextureHorSpd: _HorAnimSpd
+  propNameTextureVertSpd: _VertAnimSpd
+  propNamePinThreshold: _PinThreshold
+  propNamePinSmoothless: _PinSmoothless
+  texNameHeightMap: _HeightMap
+  texNameMain: _MainTex
